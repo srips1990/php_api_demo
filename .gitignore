@@ -1,0 +1,54 @@
+# SSH Keys (SENSITIVE - DO NOT COMMIT)
+.ssh/
+*.pem
+*.key
+*.pub
+id_rsa
+id_ed25519
+*.ppk
+
+# Credentials & Secrets (SENSITIVE - DO NOT COMMIT)
+*.crt
+*.csr
+*.p12
+*.pfx
+config/secrets.php
+config/database.php
+credentials.json
+secrets/
+.secrets
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment (SENSITIVE - DO NOT COMMIT)
+.env
+.env.*
+!.env.example
+*.env
+config.local.php
+database.ini
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp

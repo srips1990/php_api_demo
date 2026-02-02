@@ -1,0 +1,40 @@
+# Git
+.git/
+.gitignore
+
+# SSH Keys
+.ssh/
+*.pem
+*.key
+
+# Documentation
+README.md
+*.md
+
+# Docker files
+docker-compose.yml
+docker-compose.override.yml
+Dockerfile
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies (if not needed in container)
+vendor/
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

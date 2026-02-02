@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  php-api:
+    build: .
+    container_name: php-rest-api
+    ports:
+      - "8080:80"
+    volumes:
+      - ./index.php:/var/www/html/index.php
+    environment:
+      - PHP_DISPLAY_ERRORS=On
+    restart: unless-stopped
